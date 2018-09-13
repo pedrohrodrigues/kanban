@@ -5,8 +5,7 @@ class ListTodo extends Component {
       render () {
           return (
                 <div>
-                     {this.props.todos.map((todo) => <Todo key={todo.id} todo={todo} />)}
-                    {console.log(this.props.todos)}               
+                     {this.props.todos.map((todo) => <Todo key={todo.id} todo={todo} />)}             
                 </div>
           );
       }
